@@ -43,6 +43,12 @@ Cuenta
 Inicialización de geth:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/init%20geth.png "Inicialización de geth")
 
+Balance antes de minado:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Balance antes de minado")
+
+Minado y balance de después:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Minado y balance de después")
+
 #programas: adoption.sol, migration.sol y el deploy
 [Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
 
