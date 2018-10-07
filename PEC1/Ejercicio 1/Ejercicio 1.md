@@ -1,6 +1,6 @@
 #A continuación se adjunta el pantallazo del archivo de texto que se utilizó para construir el bloque génesis
 Bloque génesis:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/bloque%20genesis.png "Bloque génesis")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/bloque%20genesis.png "Bloque génesis")
 
 #Este sería el texto
 {
@@ -35,21 +35,21 @@ Bloque génesis:
 
 #Init genesis
 Init genesis:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/init%20genesis.png "Init génesis")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/init%20genesis.png "Init génesis")
 
 Cuenta
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/cuenta.png "Cuenta")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/cuenta.png "Cuenta")
 
 Inicialización de geth:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/init%20geth.png "Inicialización de geth")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/init%20geth.png "Inicialización de geth")
 
 Balance antes de minado:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Balance antes de minado")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/balance%20antes%20de%20minado.png "Balance antes de minado")
 
 Minado y balance de después:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/minado%20y%20balance.png "Minado y balance de después")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/minado%20y%20balance.png "Minado y balance de después")
 
 #archivo genesis: genesis.json
-[Archivo genesis](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/genesis.json)
+[Archivo genesis](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%201/genesis.json)
 
 
