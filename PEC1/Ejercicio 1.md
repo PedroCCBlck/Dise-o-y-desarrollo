@@ -33,6 +33,10 @@ Bloque génesis:
 
 }
 
+#Init genesis
+Init genesis:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/init_genesis.png "Init génesis")
+
 #programas: adoption.sol, migration.sol y el deploy
 [Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
 
