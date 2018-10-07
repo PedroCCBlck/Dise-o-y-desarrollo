@@ -1,5 +1,5 @@
 #Código del contrato inteligente
-[Contrato inteligente](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/C%C3%B3digo%20contrato%20inteligente)
+[Contrato inteligente](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/C%C3%B3digo%20contrato%20inteligente.sol)
 
 #Códigos de operación del contrato inteligente (opcodes)
 [Códigos de operación](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Cod_operaci%C3%B3n)
