@@ -40,8 +40,8 @@ Init genesis:
 Cuenta
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/cuenta.png "Cuenta")
 
-Empezamos el proceso de minado:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/minando.png "Minado")
+nicialización de geth y balance de cuenta antes de minado:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/inicializaci%C3%B3n%20geth.png "Inicialización de geth y balance de cuenta antes de minado")
 
 #programas: adoption.sol, migration.sol y el deploy
 [Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
