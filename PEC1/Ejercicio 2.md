@@ -6,6 +6,6 @@ Bloque 0 (correspondería al "hash") y número de peers conectados:
 Info de los nodos: 
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/peers.png "Info de los nodos")
 
-#Altura máxima
+
 Altura máxima: 
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/altura%20m%C3%A1xima.png "Altura máxima")
