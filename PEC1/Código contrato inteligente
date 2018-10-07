@@ -1,0 +1,9 @@
+pragma solidity ^0.4.11;
+contract c {
+    uint256 a;
+    
+    constructor() public {
+        a=1;
+    }
+    
+}
