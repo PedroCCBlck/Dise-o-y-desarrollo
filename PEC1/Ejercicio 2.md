@@ -8,4 +8,4 @@ Info de los nodos:
 
 #Altura máxima
 Altura máxima: 
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/peers.png "Altura máxima")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/altura%20m%C3%A1xima.png "Altura máxima")
