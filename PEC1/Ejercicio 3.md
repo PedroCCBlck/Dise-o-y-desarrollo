@@ -1,14 +1,5 @@
-Código utilizado: 
-
-pragma solidity ^0.4.11;
-contract c {
-    uint256 a;
-    
-    constructor() public {
-        a=1;
-    }
-    
-}
+#Código del contrato inteligente
+[Contrato inteligente](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/C%C3%B3digo%20contrato%20inteligente)
 
 #Códigos de operación del contrato inteligente
 [Códigos de operación](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Cod_operaci%C3%B3n)
