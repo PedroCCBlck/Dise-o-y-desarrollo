@@ -1,0 +1,10 @@
+{
+	"Creation": {
+		"codeDepositCost": "30200",
+		"executionCost": "infinite",
+		"totalCost": "infinite"
+	},
+	"External": {
+		"dividir()": "20567"
+	}
+}
