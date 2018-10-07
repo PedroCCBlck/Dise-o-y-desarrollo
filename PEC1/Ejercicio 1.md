@@ -47,7 +47,7 @@ Balance antes de minado:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Balance antes de minado")
 
 Minado y balance de después:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Minado y balance de después")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/minado%20y%20balance.png "Minado y balance de después")
 
 #archivo genesis: genesis.json
 [Archivo genesis](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/genesis.json)
