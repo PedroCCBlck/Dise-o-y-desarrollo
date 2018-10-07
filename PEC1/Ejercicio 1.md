@@ -40,7 +40,7 @@ Init genesis:
 Cuenta
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/cuenta.png "Cuenta")
 
-nicialización de geth y balance de cuenta antes de minado:
+Inicialización de geth y balance de cuenta antes de minado:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/inicializaci%C3%B3n%20geth.png "Inicialización de geth y balance de cuenta antes de minado")
 
 #programas: adoption.sol, migration.sol y el deploy
