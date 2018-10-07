@@ -10,14 +10,16 @@ contract c {
     
 }
 
-#Códigos de operación del contrato inteligente:
+#Códigos de operación del contrato inteligente
+[Códigos de operación](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Cod_operaci%C3%B3n)
 
 
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Creando%20la%20estructura%20de%20carpetas.png "Estructura de carpetas")
+#Identificadores de las funciones
+[Identificadores de las funciones](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Cod_operaci%C3%B3n)
+
+#Estimación del gas utilizado por función
+[Estimación gas](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Cod_operaci%C3%B3n)
 
 
-
-#Códigos de operación
-[Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
 
 
