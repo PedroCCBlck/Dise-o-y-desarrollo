@@ -51,3 +51,5 @@ Minado y balance de después:
 
 #archivo genesis: genesis.json
 [Archivo genesis](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/genesis.json)
+
+
