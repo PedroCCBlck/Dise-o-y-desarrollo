@@ -1,39 +1,38 @@
-#A continuación se adjunta el texto que se utilizó para construir el bloque génesis
+#A continuación se adjunta el pantallazo del archivo de texto que se utilizó para construir el bloque génesis
 Bloque génesis:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Creando%20la%20estructura%20de%20carpetas.png "Estructura de carpetas")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Bloque%20g%C3%A9nesis.png "Bloque génesis")
 
-#Compilando y migrando
-Compilando y migrando:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/compilaci%C3%B3n%20y%20migraci%C3%B3n.png "Compilando y migrando")
+#Este sería el texto
+{
+
+"config": {
+
+"chainId": 15, 
+
+"homesteadBlock": 0,
+
+"eip155Block": 0,
+
+"eip158Block": 0
+
+},
+
+"difficulty": "20",
+
+"gasLimit": "2100000",
+
+"alloc": {
+
+"7df9a875a174b3bc565e6424a0050ebc1b2d1d82": 
+    { "balance": "300000" },
+
+"f41c74c9ae680c1aa78f42e5647a62f353b7bdde": 
+    { "balance": "400000" }
+
+}
+
+}
 
 #programas: adoption.sol, migration.sol y el deploy
 [Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
-[Programa migration.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Migrations.sol)
-[Programa del deploy](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/2_deploy_contracts.js)
 
-#Pantallazo de Ganache
-Pantallazo de Ganache:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Pantallazo%20de%20Ganache.png "Pantallazo de Ganache")
-
-#Testeo de las funciones
-Testeo de las funciones:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Testeo%20de%20las%20funciones.png "Testeo de las funciones")
-
-#programa para interacción con la API
-[Programa app.js](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/app.js)
-
-#Ejecutando el front desde el terminal
-Ejecutando el front desde el terminal:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/ejecutando%20el%20front.png "Ejecutando el front desde el terminal")
-
-#Conexión local (dirección del host), sincronización de bloques y número de bloque
-Conexión local (dirección del host), sincronización de bloques y número de bloque:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Conexi%C3%B3n%20local.png "Conexión local (dirección del host), sincronización de bloques y número de bloque")
-
-#Balance y address d ela cuenta 3
-Balance y address de la cuenta 3:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/cuenta%203.png "Balance y address de la cuenta 3")
-
-#Precio gas
-Precio gas:
-![alt text](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Precio%20gas.png "Precio gas")
