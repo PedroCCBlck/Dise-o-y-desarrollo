@@ -49,6 +49,6 @@ Balance antes de minado:
 Minado y balance de después:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/balance%20antes%20de%20minado.png "Minado y balance de después")
 
-#programas: adoption.sol, migration.sol y el deploy
-[Programa adoption.sol](https://github.com/PedroCCBlck/Truffle_evaluation/blob/master/Adoption.sol)
+#archivo genesis: genesis.json
+[Archivo genesis](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/genesis.json)
 
