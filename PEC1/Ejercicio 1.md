@@ -37,6 +37,9 @@ Bloque génesis:
 Init genesis:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/init_genesis.png "Init génesis")
 
+Cuenta
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/cuenta.png "Cuenta")
+
 Empezamos el proceso de minado:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/minando.png "Minado")
 
