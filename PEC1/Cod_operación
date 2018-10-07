@@ -1,3 +1,10 @@
 {
-	"f71de840": "dividir()"
+	"Creation": {
+		"codeDepositCost": "31000",
+		"executionCost": "infinite",
+		"totalCost": "infinite"
+	},
+	"External": {
+		"dividir()": "20578"
+	}
 }
