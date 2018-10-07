@@ -1,13 +1,13 @@
 #A continuación se adjunta el pantallazo del archivo de texto que se utilizó para construir el bloque génesis
 Bloque génesis:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Bloque%20g%C3%A9nesis.png "Bloque génesis")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/bloque%20genesis.png "Bloque génesis")
 
 #Este sería el texto
 {
 
 "config": {
 
-"chainId": 15, 
+"chainId": 750, 
 
 "homesteadBlock": 0,
 
@@ -17,7 +17,7 @@ Bloque génesis:
 
 },
 
-"difficulty": "20",
+"difficulty": "1",
 
 "gasLimit": "2100000",
 
