@@ -9,4 +9,4 @@
 [Generación del archivo binario donde se pueden ver los códigos de operación del lenguaje ensamblador y el gas consumido](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%203/Generaci%C3%B3n%20de%20archivo%20binario)
 
 #Archivo binario generado
-[Archivo binario generado](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%203/Codigo_contrato_inteligente.sol)
+[Archivo binario generado](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC1/Ejercicio%203/Codigo_contrato_inteligente_sol_c.bin)
