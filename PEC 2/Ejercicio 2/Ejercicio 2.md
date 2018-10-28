@@ -17,7 +17,7 @@ Modificamos el index del frontal de la Dapp de Petshop que utilizamos en la prá
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/index_mod.png "Modificación de index")
 
 Añadimos el proyecto a la red IPFS:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/a%C3%B1adir%20proyecto_ipfs.png "Add to IPFS")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/add%20ipfs__.png "Add to IPFS")
 
 Publicamos la carpeta Parent en IPFS:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/publicaci%C3%B3n%20IPFS_.png "Publish to IPFS")
@@ -25,5 +25,5 @@ Publicamos la carpeta Parent en IPFS:
 Vemos cómo esto nos devuelve nuestro peer ID y el hash del contenido que hemos publicado.
 
 Comprobamos que resuelve bien la dirección de la carpeta padre:
-Publicamos la carpeta Parent en IPFS:
+Comprobamos que resuelve bien:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolver.png "Resolve")
