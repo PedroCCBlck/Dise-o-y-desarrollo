@@ -17,7 +17,7 @@ Modificamos el index del frontal de la Dapp de Petshop que utilizamos en la prá
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/index_mod.png "Modificación de index")
 
 Añadimos el proyecto a la red IPFS:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/add%20ipfs__.png "Add to IPFS")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/add_ipfs_final.png "Add to IPFS")
 
 La carpeta Parent sería
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/carpeta%20Parent.png "Parent folder")
