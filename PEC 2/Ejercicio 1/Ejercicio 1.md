@@ -17,5 +17,7 @@ Al respecto, se adjunta el archivo modificado:
 [ensutils-testnet.js](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/ensutils-testnet.js)
 
 Creamos una cuenta en la red:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/nueva%20cuenta.png "Nueva cuenta")
 
-web3.personal.unlockAccount(web3.personal.listAccounts[0],"<password>", 15000)
+Desbloqueamos la cuenta creada:
+
