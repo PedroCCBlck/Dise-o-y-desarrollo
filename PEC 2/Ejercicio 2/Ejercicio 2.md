@@ -32,7 +32,7 @@ Comprobamos que resuelve bien:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolve_last.png "Resolve")
 
 La Dapp Utilizada es la siguiente:
-[Dapp](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/pet-shop-tutorial%20(copia).tar.gz)
+[Dapp](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/pet-shop-tutorial.tar.gz)
 
 Nota: Aunque en el terminal resuelve la dirección de IPFS, en mi navegador no lo hace 
 No resuelve en el browser:
