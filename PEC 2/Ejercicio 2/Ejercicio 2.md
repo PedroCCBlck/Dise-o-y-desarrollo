@@ -22,14 +22,10 @@ Añadimos el proyecto a la red IPFS:
 La carpeta Parent sería
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/carpeta%20Parent.png "Parent folder")
 
-Publicamos la carpeta Parent en IPFS:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/publicaci%C3%B3n_last.png "Publish to IPFS")
+Publicamos la carpeta Parent en IPFS y resolvemos el hash:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/publicar%20y%20resolver.png "Publish to IPFS")
 
 Vemos cómo esto nos devuelve nuestro peer ID y el hash del contenido que hemos publicado.
-
-Comprobamos que resuelve bien la dirección de la carpeta padre:
-Comprobamos que resuelve bien:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolve_last.png "Resolve")
 
 La Dapp Utilizada es la siguiente:
 [Dapp](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/pet-shop-tutorial.tar.gz)
