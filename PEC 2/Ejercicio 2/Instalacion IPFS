@@ -1,0 +1,12 @@
+pedro@pedro-VirtualBox:~$ tar xvfz go-ipfs_v0.4.10_linux-386.tar.gz
+go-ipfs/build-log
+go-ipfs/install.sh
+go-ipfs/ipfs
+go-ipfs/LICENSE
+go-ipfs/README.md
+pedro@pedro-VirtualBox:~$ cd go-ipfs
+pedro@pedro-VirtualBox:~/go-ipfs$ sudo ./install.sh
+[sudo] password for pedro: 
+Moved ipfs to /usr/local/bin
+pedro@pedro-VirtualBox:~/go-ipfs$ ipfs version
+ipfs version 0.4.10
