@@ -9,4 +9,4 @@ Obtenemos el hash del proyecto subido a Swarm:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%203/swarm%20instalaci%C3%B3n.png "Hash en Swarm")
 
 Comprobamos que podemos acceder al front:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%203/swarm%20instalaci%C3%B3n.png "Hash en Swarm")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%203/front.png "Subida de front")
