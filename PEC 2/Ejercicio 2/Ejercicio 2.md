@@ -32,4 +32,4 @@ Comprobamos que resuelve bien:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolve_last.png "Resolve")
 
 La Dapp Utilizada es la siguiente:
-[Terminal con la instalación](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/Instalacion%20IPFS)
+[Dapp](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/pet-shop-tutorial%20(copia).tar.gz)
