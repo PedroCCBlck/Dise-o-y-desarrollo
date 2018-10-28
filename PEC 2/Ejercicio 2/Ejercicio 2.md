@@ -8,4 +8,6 @@ Instalación de IPFS:
 #Inicializamos IPFS:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/init%20IPFS.png "Init de IPFS")
 
-Vemos cómo la aplicación nos devuelve el hash de nuestra dirección. Además se ha configurado una clave asimétrica RSA de 2048 bits.
+Vemos cómo la aplicación nos devuelve el hash de nuestra dirección (nuestro ID). Además, se ha configurado una clave asimétrica RSA de 2048 bits para la comunicación con la red de IPFS.
+
+Ejecutamos el daemon:
