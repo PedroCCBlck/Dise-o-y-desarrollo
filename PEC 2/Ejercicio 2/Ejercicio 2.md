@@ -12,3 +12,6 @@ Vemos cómo la aplicación nos devuelve el hash de nuestra dirección (nuestro I
 
 Ejecutamos el daemon:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/ejecuci%C3%B3n%20de%20daemon.png "Ejecución de daemon")
+
+Modificamos el index del frontal de la Dapp de Petshop que utilizamos en la práctica inicial:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/index_mod.png "Modificación de index")
