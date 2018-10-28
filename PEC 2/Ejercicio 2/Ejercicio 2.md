@@ -23,3 +23,7 @@ Publicamos la carpeta Parent en IPFS:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/publicaci%C3%B3n%20IPFS_.png "Publish to IPFS")
 
 Vemos cómo esto nos devuelve nuestro peer ID y el hash del contenido que hemos publicado.
+
+Comprobamos que resuelve bien la dirección de la carpeta padre:
+Publicamos la carpeta Parent en IPFS:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolver.png "Resolve")
