@@ -16,8 +16,24 @@ publicResolver address: 0x5d20cf83cb385e06d2f2a892f9322cd4933eacdc (line 1314)
 Al respecto, se adjunta el archivo modificado: 
 [ensutils-testnet.js](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/ensutils-testnet.js)
 
-Creamos una cuenta en la red:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/nueva%20cuenta.png "Nueva cuenta")
+Creamos una cuenta en la red e intentamos cargar el archivo ensutils-testnet.js:
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/error_rinkeby.png "Nueva cuenta")
 
-Desbloqueamos la cuenta creada:
+Vemos que nos sale un error por no estar sincronizado con el nodo.
+
+Adicionalmente habría que seguir los siguientes pasos:
+1)Desbloquear la cuenta creada:
+web3.personal.unlockAccount(web3.personal.listAccounts[0],"<password>", 15000)
+  
+2)Chequear que nadie tiene el dominio que vamos a pedir:
+new Date(testRegistrar.expiryTimes(web3.sha3('myname')).toNumber() * 1000)
+
+3) Registrarlo:
+testRegistrar.register(web3.sha3('myname'), eth.accounts[0], {from: eth.accounts[0]})
+
+4) Unirlo al public resolver de la red:
+ens.setResolver(namehash('myname.test'), publicResolver.address, {from: eth.accounts[0]});
+
+5)Unimos el dominio con nuestra cuenta (y se lo decimos al resolvedor): 
+publicResolver.setAddr(namehash('myname.test'), eth.accounts[0], {from: eth.accounts[0]});
 
