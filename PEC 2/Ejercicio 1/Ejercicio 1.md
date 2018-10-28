@@ -7,7 +7,7 @@ El comando para la sincronización utiliza el modo "light" (que en principio val
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/order%20sincronizaci%C3%B3n.png "Modo light")
 
 Una vez sincronizado el nodo habría que:
-1) Modificar la dirección del contracto y el pulic resolver del siguiente archivo àra adecualo a la red de Rinkeby:
+1) Modificar la dirección del contracto y el pulic resolver del siguiente archivo y adecuarlo a la red de Rinkeby:
 https://github.com/ensdomains/ens/blob/master/ensutils-testnet.js
 
 contract address: 0xe7410170f87102df0055eb195163a03b7f2bff4a (line 220)
