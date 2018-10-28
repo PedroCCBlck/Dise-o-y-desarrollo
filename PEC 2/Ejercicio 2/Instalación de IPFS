@@ -1,0 +1,108 @@
+pedro@pedro-VirtualBox:~$ sudo apt-get update
+[sudo] password for pedro: 
+Obj:1 http://ppa.launchpad.net/ethereum/ethereum/ubuntu xenial InRelease
+Obj:2 https://deb.nodesource.com/node_8.x xenial InRelease                     
+Des:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]     
+Obj:4 http://es.archive.ubuntu.com/ubuntu xenial InRelease                     
+Des:5 http://es.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Des:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67,7 kB]
+Des:7 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [68,0 kB]
+Des:8 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [108 kB]
+Des:9 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [145 kB]
+Des:10 http://es.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB] 
+Des:11 http://es.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [869 kB]
+Des:12 http://es.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [777 kB]
+Des:13 http://es.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [320 kB]
+Des:14 http://es.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [235 kB]
+Des:15 http://es.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [697 kB]
+Des:16 http://es.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [639 kB]
+Des:17 http://es.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [247 kB]
+Des:18 http://es.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [333 kB]
+Des:19 http://es.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5.964 B]
+Des:20 http://es.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons [14,3 kB]
+Des:21 http://es.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3.324 B]
+Des:22 http://es.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5.104 B]
+Descargados 4.857 kB en 9s (509 kB/s)                                          
+Leyendo lista de paquetes... Hecho
+pedro@pedro-VirtualBox:~$ sudo apt-get install golang-go -y
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  gyp javascript-common libjs-inherits libjs-jquery libjs-node-uuid libjs-underscore
+  libssl-dev libssl-doc libuv1 libuv1-dev linux-headers-4.15.0-29
+  linux-headers-4.15.0-29-generic linux-image-4.15.0-29-generic
+  linux-modules-4.15.0-29-generic linux-modules-extra-4.15.0-29-generic node-abbrev node-ansi
+  node-ansi-color-table node-archy node-async node-block-stream node-combined-stream
+  node-cookie-jar node-delayed-stream node-forever-agent node-form-data node-fstream
+  node-fstream-ignore node-github-url-from-git node-glob node-graceful-fs node-gyp
+  node-inherits node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs node-read
+  node-read-package-json node-request node-retry node-rimraf node-semver node-sha node-sigmund
+  node-slide node-tar node-tunnel-agent node-underscore node-which python-pkg-resources
+  zlib1g-dev
+Utilice «sudo apt autoremove» para eliminarlos.
+Se instalarán los siguientes paquetes adicionales:
+  golang-1.6-go golang-1.6-race-detector-runtime golang-1.6-src golang-race-detector-runtime
+  golang-src
+Paquetes sugeridos:
+  bzr mercurial subversion
+Se instalarán los siguientes paquetes NUEVOS:
+  golang-1.6-go golang-1.6-race-detector-runtime golang-1.6-src golang-go
+  golang-race-detector-runtime golang-src
+0 actualizados, 6 nuevos se instalarán, 0 para eliminar y 3 no actualizados.
+Se necesita descargar 27,3 MB de archivos.
+Se utilizarán 198 MB de espacio de disco adicional después de esta operación.
+Des:1 http://es.archive.ubuntu.com/ubuntu xenial-updates/main amd64 golang-1.6-src amd64 1.6.2-0ubuntu5~16.04.4 [6.416 kB]
+Des:2 http://es.archive.ubuntu.com/ubuntu xenial-updates/main amd64 golang-1.6-go amd64 1.6.2-0ubuntu5~16.04.4 [20,5 MB]
+Des:3 http://es.archive.ubuntu.com/ubuntu xenial/main amd64 golang-src amd64 2:1.6-1ubuntu4 [3.066 B]
+Des:4 http://es.archive.ubuntu.com/ubuntu xenial/main amd64 golang-go amd64 2:1.6-1ubuntu4 [21,8 kB]
+Des:5 http://es.archive.ubuntu.com/ubuntu xenial/main amd64 golang-1.6-race-detector-runtime amd64 0.0+svn252922-0ubuntu1 [404 kB]
+Des:6 http://es.archive.ubuntu.com/ubuntu xenial/main amd64 golang-race-detector-runtime amd64 2:1.6-1ubuntu4 [2.854 B]
+Descargados 27,3 MB en 19s (1.387 kB/s)                                                        
+Seleccionando el paquete golang-1.6-src previamente no seleccionado.
+(Leyendo la base de datos ... 258544 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../golang-1.6-src_1.6.2-0ubuntu5~16.04.4_amd64.deb ...
+Desempaquetando golang-1.6-src (1.6.2-0ubuntu5~16.04.4) ...
+Seleccionando el paquete golang-1.6-go previamente no seleccionado.
+Preparando para desempaquetar .../golang-1.6-go_1.6.2-0ubuntu5~16.04.4_amd64.deb ...
+Desempaquetando golang-1.6-go (1.6.2-0ubuntu5~16.04.4) ...
+Seleccionando el paquete golang-src previamente no seleccionado.
+Preparando para desempaquetar .../golang-src_2%3a1.6-1ubuntu4_amd64.deb ...
+Desempaquetando golang-src (2:1.6-1ubuntu4) ...
+Seleccionando el paquete golang-go previamente no seleccionado.
+Preparando para desempaquetar .../golang-go_2%3a1.6-1ubuntu4_amd64.deb ...
+Desempaquetando golang-go (2:1.6-1ubuntu4) ...
+Seleccionando el paquete golang-1.6-race-detector-runtime previamente no seleccionado.
+Preparando para desempaquetar .../golang-1.6-race-detector-runtime_0.0+svn252922-0ubuntu1_amd64.deb ...
+Desempaquetando golang-1.6-race-detector-runtime (0.0+svn252922-0ubuntu1) ...
+Seleccionando el paquete golang-race-detector-runtime previamente no seleccionado.
+Preparando para desempaquetar .../golang-race-detector-runtime_2%3a1.6-1ubuntu4_amd64.deb ...
+Desempaquetando golang-race-detector-runtime (2:1.6-1ubuntu4) ...
+Procesando disparadores para man-db (2.7.5-1) ...
+Configurando golang-1.6-src (1.6.2-0ubuntu5~16.04.4) ...
+Configurando golang-1.6-go (1.6.2-0ubuntu5~16.04.4) ...
+Configurando golang-src (2:1.6-1ubuntu4) ...
+Configurando golang-go (2:1.6-1ubuntu4) ...
+Configurando golang-1.6-race-detector-runtime (0.0+svn252922-0ubuntu1) ...
+Configurando golang-race-detector-runtime (2:1.6-1ubuntu4) ...
+pedro@pedro-VirtualBox:~$ wget https://dist.ipfs.io/go-ipfs/v0.4.10/go-ipfs_v0.4.10_linux-386.tar.gz
+--2018-10-28 03:26:29--  https://dist.ipfs.io/go-ipfs/v0.4.10/go-ipfs_v0.4.10_linux-386.tar.gz
+Resolviendo dist.ipfs.io (dist.ipfs.io)... 209.94.90.1, 209.94.78.81, 209.94.78.78, ...
+Conectando con dist.ipfs.io (dist.ipfs.io)[209.94.90.1]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 8134700 (7,8M) [application/gzip]
+Grabando a: “go-ipfs_v0.4.10_linux-386.tar.gz”
+
+go-ipfs_v0.4.10_linux-3 100%[===============================>]   7,76M  4,00MB/s    in 1,9s    
+
+2018-10-28 03:26:32 (4,00 MB/s) - “go-ipfs_v0.4.10_linux-386.tar.gz” guardado [8134700/8134700]
+
+pedro@pedro-VirtualBox:~$ tar xvfz go-ipfs_v0.4.10_linux-386.tar.gz
+go-ipfs/build-log
+go-ipfs/install.sh
+go-ipfs/ipfs
+go-ipfs/LICENSE
+go-ipfs/README.md
+pedro@pedro-VirtualBox:~$ sudo mv go-ipfs/ipfs /usr/local/bin/ipfs
