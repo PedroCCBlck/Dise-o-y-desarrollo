@@ -36,4 +36,4 @@ La Dapp Utilizada es la siguiente:
 
 Nota: Aunque en el terminal resuelve la dirección de IPFS, en mi navegador no lo hace 
 No resuelve en el browser:
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/resolve_last.png "Resolve")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%202/no%20resuelve.png "Not Resolving")
