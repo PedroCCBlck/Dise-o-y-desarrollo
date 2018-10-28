@@ -20,8 +20,8 @@ Creamos una cuenta en la red e intentamos cargar el archivo ensutils-testnet.js:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%202/Ejercicio%201/error_rinkeby.png "Nueva cuenta")
 
 Vemos que nos sale un error por no estar sincronizado con el nodo.
-
 Adicionalmente habría que seguir los siguientes pasos:
+
 1)Desbloquear la cuenta creada:
 web3.personal.unlockAccount(web3.personal.listAccounts[0],"<password>", 15000)
   
