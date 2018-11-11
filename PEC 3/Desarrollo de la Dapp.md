@@ -18,6 +18,15 @@ Para crear el frontend vamos a utilizar un diseño sencillo que permita a los ce
 
 [Referencia](https://github.com/IvanAbadzhiev/DecentralizedCarLog)
 
+La pantalla inicial de nuestra aplicación nos permitirá realizar dos acciones:
+
+1) Dar de alta un nuevo paciente.
+2) Consultar los datos de un paciente.
+
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/PantallaInicial.png "Pantalla inicial")
+
+El código modificado html se puede consultar aquí: [Html](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Pantallainicial.html)
+
 Sobre este frontal vamos a hacer las modificaciones pertinentes para incluir los siguientes indicadores médicos (con sus valores umbrales):
 1) Glucosa (70-110 mg/dl)
 2) Colesterol general (120-200 mg/dl)
@@ -30,3 +39,9 @@ La imagen del frontal (para el registro del paciente) es la siguiente:
 ![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Frontal%20registro%20paciente.png "Frontal registro")
 
 El código modificado html se puede consultar aquí: [Html](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Registro.html)
+
+Adicionalmente vamos a incluir una pantalla de consulta de los datos del paciente en donde se muestre adicionalmente:
+1) La valoración de riesgo del paciente (Low, Average, High).
+2) El hospital asignado según esa valoración (supongamos que cada hospital está especializado en un tipo de paciente).
+
+El código modificado html se puede consultar aquí: [Html](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Report.html)
