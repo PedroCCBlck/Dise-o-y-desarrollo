@@ -1,0 +1,66 @@
+<img alt="15x30" data-src="holder.js/15x30" class="img-rounded img-center" style="width: 15%;" src="https://cdn.pixabay.com/photo/2016/04/19/13/22/hospital-1338585_960_720.jpg" data-holder-rendered="true">
+		<div class="jumbotron">
+		  <h1 class="display-4">Nuevo registro de paciente</h1>
+		  <p class="lead">Por favor introduzca los indicadores medicos del paciente</p>
+		  <hr class="my-4">
+
+		  <p>
+		  	<div class="form-group">
+			    <label for="idPac">Identificador de paciente : </label>
+			    <input type="text" class="form-control" id="idPac" name="idPac" placeholder="Id de paciente">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+
+		  	<div class="form-group">
+			    <label for="Glucosa">Indicador de glucosa (70-110 mg/dl) : </label>
+			    <input type="text" class="form-control" id="Glucosa" name="Glucosa" placeholder="Indicador de glucosa">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+
+		  	<div class="form-group">
+			    <label for="Colesterol">Indicador de colesterol general (120-200 mg/dl) : </label>
+			    <input type="text" class="form-control" id="Colesterol" name="Colesterol" placeholder="Indicador de colesterol">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+		  	
+			<div class="form-group">
+			    <label for="Trigliceridos">Indicador de trigliceridos (30-220 mg/dl) : </label>
+			    <input type="text" class="form-control" id="Trigliceridos" name="Trigliceridos" placeholder="Indicador de trigliceridos">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+
+			<div class="form-group">
+			    <label for="AcidoUrico">Indicador de acido urico (2-7 mg/dl) : </label>
+			    <input type="text" class="form-control" id="AcidoUrico" name="AcidoUrico" placeholder="Indicador de ac. urico">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+
+			<div class="form-group">
+			    <label for="Linfocitos">Indicador de linfocitos (1.300-4.000 /mL) : </label>
+			    <input type="text" class="form-control" id="Linfocitos" name="Linfocitos" placeholder="Indicador de linfocitos">
+			    <span class="success"></span>
+			    <span class="error"></span>
+		  	</div>
+
+		  	<div class="form-group">
+			    <label for="name">Evidencia medica : </label>
+			    <input type="file" class="form-control" id="Evidencia">
+			    <input type="hidden" id="ipfsImage">
+			    <span class="errorImage"></span>
+		  	</div>
+		  </p>
+		  <p><input type="button" class="btn btn-primary btn-lg" id="addReg" value="Attach registry"></p>
+		</div>
+		
+
+		<div class="row" id="PacRow">
+			<!-- here will be added all available services -->
+		</div>
+	</div>
+	<script src="/js/registro.js" type="text/javascript"></script> <!-- here is the logic -->
+ <img alt="30x30" data-src="holder.js/30x30" class="img-rounded img-center" style="width: 30%;" src="http://www.servinglifechiropractic.com/wp-content/uploads/2018/07/doc3.jpg" data-holder-rendered="true">
