@@ -24,3 +24,9 @@ Sobre este frontal vamos a hacer las modificaciones pertinentes para incluir los
 3) Trigliceridos (30-220 mg/dl)
 4) Ácido urico (2-7 mg/dl)
 5) Linfocitos (1.300-4.000 /mL)
+
+La imagen del frontal (para el registro del paciente) es la siguiente:
+
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Frontal%20registro%20paciente.png "Frontal registro")
+
+El código modificado html se puede consultar aquí: [Html](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Registro.html)
