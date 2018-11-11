@@ -27,7 +27,7 @@ La pantalla inicial de nuestra aplicación nos permitirá realizar dos acciones:
 
 El código modificado html se puede consultar aquí: [Html](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Pantallainicial.html)
 
-Sobre este frontal vamos a hacer las modificaciones pertinentes para incluir los siguientes indicadores médicos (con sus valores umbrales):
+En la pantalla de registro de nuevo paciente incluiremos los siguientes indicadores médicos (con sus valores umbrales):
 1) Glucosa (70-110 mg/dl)
 2) Colesterol general (120-200 mg/dl)
 3) Trigliceridos (30-220 mg/dl)
