@@ -13,3 +13,14 @@ La idea es positiva por apoyarse en varios factores:
 4) El medio no es confiable (si, por ejemplo, se adhieren terceras partes como compañías de seguros y de salud).
 
 Para preservar la privacidad de los datos, se optaría por una red Blockchain privada. Si se quisiera trasladar la funcionalidad a la red pública se tendría que preservar la privacidad de los datos a través de algoritmos como los ZPK (Zero Proof Knowledge).
+
+Para crear el frontend vamos a utilizar un diseño sencillo que permita a los centros de salud, hospitales y compañías de seguros subir datos a la blockchain y consultarlos. Tomamos como base el frontal del siguiente proyecto:
+
+[Referencia](https://github.com/IvanAbadzhiev/DecentralizedCarLog)
+
+Sobre este frontal vamos a hacer las modificaciones pertinentes para incluir los siguientes indicadores médicos (con sus valores umbrales):
+1) Glucosa (70-110 mg/dl)
+2) Colesterol general (120-200 mg/dl)
+3) Trigliceridos (30-220 mg/dl)
+4) Ácido urico (2-7 mg/dl)
+5) Linfocitos (1.300-4.000 /mL)
