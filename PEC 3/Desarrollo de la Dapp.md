@@ -28,7 +28,7 @@ Destacar además que los datos "riesgo" y "hospital" se calculan mediante una su
 5) Debajo del botón "Borrar datos" se sitúa una pequeña tabla (con dos columnas) para visualizar el riesgo y el hospital de un paciente específico.
 6) Por último se han incluido 3 secciones del front que dan información (en forma de texto) al usuario:
 _En la parte superior: El saldo del usuario de la web (por cada acción de escritura, consulta y borrado se le descontarán 50 tokens de su saldo).
-_También en la parte superior: El número de cuenta utilizada por el usuario.
+_También en la parte superior: El número de cuenta utilizada por el usuario.Si el address de la cuenta del suario se cambia, la página web se recarga.
 _Debajo del botón de envío de datos: Una cadena de texto que muestra el estado de la aplicación.
 
 Así, el procedimiento de ejecución sería:
@@ -37,8 +37,25 @@ Así, el procedimiento de ejecución sería:
 3) Una vez aceptada la transacción en Metamask, se puede consultar los datos de ese mismo paciente (utilizando el campo "Identificador de paciente" de la sección "Consulta de datos"). Para ello hay que pulsar el botón "Consulta de datos" y aceptar la transacción.
 4) En la tabla que se sitúa debajo del botón "Borrar datos" aparecerán los datos "riesgo" y "Hospital" del paciente.
 5) Si se pulsa el boton de borrar se eliminará el registro dle paciente del mapping de pacientes.
-6) Finalmente destacar que si el owner del contrato introduce la palabra "True" en el "control de parada" las funciones de escritura y borrado no se podrán ejecutar.
+6) Finalmente destacar que si el owner del contrato introduce la palabra "True" en el "control de parada" las funciones de escritura y borrado no se podrán ejecutar. 
 
 A continuación se muestra una imagen del frontal:
 [Código frontal] (https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Frontal.html)
+
+Se han incoorporado algunas medidas de seguridad sobre la Dapp:
+_Validaciones de entrada del frontal: Para evitar que se produzca un ataque de inyección de código. La especificación de esta parte del código se encuentra en el archivo html (index.html).
+_El mecanismo del circuit breaker: Que permite que si el owner del contrato quiere parar las operaciones de escritura y borrado, lo puede hacer. Este aspecto se ha conseguido con un campo de entrada al front y a través de una llamada a una función en el .js (y almacenamiento del valor en una variable en el contrato).
+_Que sólo sea el owner quien pueda ejecutar detecminadas funciones del contrato (como el borrado y el almacenamiento de la variable para el circuit breaker). Conseguimos este aspecto medianteel modificador "onlyOwner" (definido en el contrato "Owned").
+_Seguridad en las operaciones aritméticas (para evitar posibles desbordamientos). Para ello se ha utilizado la librería "SafeMath" de Oppen Zeppelin.
+
+Mendionar adicionalmente que se ha implementado un mecanismo de herencia mediante el uso de la función "Owned" para regular las acciones que sólo puede ejecutar el owner. Además se ha utilizado una función aritmética de Oppen Zeppelin.
+
+Por último, señalar que se han realizado una serie de test sobre las funciones utilizadas en el contrato principal. El resultado de estos test se pueden observar en la siguiente imagen:
+
+![alt text]( https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/test.png "Test")
+
+Los aspectos fundamentales que se han tenido en cuenta en estos test (detallados en el script: "Test.js") han sido:
+_La corrección de las direcciones generadas en los contratos.
+_La correción en la ejecución de los eventos de cada función del contrato.
+
 
