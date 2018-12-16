@@ -22,7 +22,7 @@ Con respecto al frontal, está formado por los siguientes elementos:
 3) Botones para ejecutar los datos introducidos (mencionados en el punto 2) y para consultar el riesgo y el hospital asignado al paciente. El dato de entrada (key) al mapping que permite acceder a los datos de los pacientes viene dado por el campo de entrada "Identificador de paciente" de la sección "consulta de datos" del front.
 Destacar además que los datos "riesgo" y "hospital" se calculan mediante una suma ponderada de los datos médicos mencionados en el punto 2:
 
-![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Modelo%20calculo%20riesgo.png, "Modelo riesgo")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Modelo%20calculo%20riesgo.png "Modelo riesgo")
     
 4) Botón para borrar los datos del paciente identificado con el campo de entrada "Identificador de paciente" de la sección "consulta de datos" del front.
 5) Debajo del botón "Borrar datos" se sitúa una pequeña tabla (con dos columnas) para visualizar el riesgo y el hospital de un paciente específico.
