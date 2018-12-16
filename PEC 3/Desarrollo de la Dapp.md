@@ -22,7 +22,7 @@ Con respecto al frontal, está formado por los siguientes elementos:
 3) Botones para ejecutar los datos introducidos (mencionados en el punto 2) y para consultar el riesgo y el hospital asignado al paciente. El dato de entrada (key) al mapping que permite acceder a los datos de los pacientes viene dado por el campo de entrada "Identificador de paciente" de la sección "consulta de datos" del front.
 Destacar además que los datos "riesgo" y "hospital" se calculan mediante una suma ponderada de los datos médicos mencionados en el punto 2:
 
-[alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Modelo%20calculo%20riesgo.png)
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Modelo%20calculo%20riesgo.png, "Modelo riesgo")
     
 4) Botón para borrar los datos del paciente identificado con el campo de entrada "Identificador de paciente" de la sección "consulta de datos" del front.
 5) Debajo del botón "Borrar datos" se sitúa una pequeña tabla (con dos columnas) para visualizar el riesgo y el hospital de un paciente específico.
@@ -40,5 +40,5 @@ Así, el procedimiento de ejecución sería:
 6) Finalmente destacar que si el owner del contrato introduce la palabra "True" en el "control de parada" las funciones de escritura y borrado no se podrán ejecutar.
 
 A continuación se muestra una imagen del frontal:
-[Frontal] (https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Frontal.html)
+[Código frontal] (https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Frontal.html)
 
