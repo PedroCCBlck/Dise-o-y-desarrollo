@@ -41,7 +41,7 @@ Así, el procedimiento de ejecución sería:
 6) Finalmente destacar que si el owner del contrato introduce la palabra "True" en el "control de parada" las funciones de escritura y borrado no se podrán ejecutar. 
 
 A continuación se muestra una imagen del frontal:
-![alt text] (https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Captura%20front%20bueno.png "Frontal")
+![alt text](https://github.com/PedroCCBlck/Dise-o-y-desarrollo/blob/master/PEC%203/Captura%20front%20bueno.png "Frontal")
 
 Se han incoorporado algunas medidas de seguridad sobre la Dapp:
 
