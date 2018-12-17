@@ -28,9 +28,9 @@ Destacar además que los datos "riesgo" y "hospital" se calculan mediante una su
 5) Debajo del botón "Borrar datos" se sitúa una pequeña tabla (con dos columnas) para visualizar el riesgo obtenido (según el modelo) y el hospital al que es asignado un paciente específico.
 6) Por último, se han incluido 3 secciones del front que dan información (en forma de texto) al usuario:
 
-    _En la parte superior: El saldo del usuario de la web (por cada acción de escritura, consulta y borrado se le descontarán 50 tokens     de su saldo).
-    _También en la parte superior: El número de cuenta utilizada por el usuario.Si el address de la cuenta del suario se cambia, la         página web se recarga.
-    _Debajo del botón de envío de datos: Una cadena de texto que muestra el estado de la aplicación.
+        _En la parte superior: El saldo del usuario de la web (por cada acción de escritura, consulta y borrado se le descontarán 50             tokens de su saldo).
+        _También en la parte superior: El número de cuenta utilizada por el usuario.Si el address de la cuenta del suario se cambia, la         página web se recarga.
+        _Debajo del botón de envío de datos: Una cadena de texto que muestra el estado de la aplicación.
 
 Así, el procedimiento de ejecución sería:
 1) Introducir los datos del paciente. El campo "Identificador del paciente" de la sección "envío de datos" es el que se utilizará como key para escribir en el mapping del paciente. 
